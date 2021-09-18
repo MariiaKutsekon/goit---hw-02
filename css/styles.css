@@ -114,3 +114,41 @@ letter-spacing: 0.03em;
 color:var(--primery-text-color);
 }
 
+/*третя секція*/
+.representation{
+
+}
+
+.representation-team{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+color: var(--secondary-title-color);
+}
+.representation-services-img{
+
+}
+/*третя секція*/
+.team{
+
+}
+.list-of-team{
+
+}
+.team-name{
+font-weight: 700;
+font-size: 16px;
+line-height: 1.9;
+text-align: center;
+color: var(--secondary-title-color);
+
+}
+.team-position{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+    color: var(--primery-text-color);
+    
+}
