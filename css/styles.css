@@ -74,7 +74,6 @@ color: var(--primery-text-color);
 background: #2F303A;
 }
 
-
 .pre-title{
 font-weight: 900;
 font-size: 44px;
@@ -84,9 +83,9 @@ text-transform: uppercase;
 color:var(--primary-title-color);
 }
 
-
 .main-btn{
 font-size: 16px;
+font-weight: bold;
 line-height: 1.87;
 display: flex;
 align-items: center;
@@ -94,3 +93,24 @@ text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;;
 }
+
+/*друга секція*/
+.advantage{
+
+}
+.advantage-our-first{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+letter-spacing: 0.03em;
+color:var(--secondary-title-color);
+}
+.advantage-our-sec{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color:var(--primery-text-color);
+}
+
