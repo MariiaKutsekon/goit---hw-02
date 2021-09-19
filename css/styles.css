@@ -22,9 +22,13 @@ background-color: white;
 
     
 .body { 
-    font-family: 'Roboto', 
-    sans-serif;
-    letter-spacing: 0.03em;
+    
+font-size: 14px;
+font-family: 'Roboto', sans-serif;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+background-color: var(--primary-title-color);
+        
 }
 
 
