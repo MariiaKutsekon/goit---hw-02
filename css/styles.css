@@ -2,8 +2,8 @@
     --primary-title-color:#ffffff;
     --secondary-title-color:#212121;
     --primery-text-color:#757575;
-    --primery-logo-title:#2196F3;
     --accent-color:#2196F3;
+    --color-btn:#F5F4FA;
     }
 
 .link {text-decoration: none;
@@ -27,15 +27,22 @@ background-color: white;
     letter-spacing: 0.03em;
 }
 
-.btn{
-    background-color: var(--primery-logo-title);
-}
+
 
 .header-link:hover,
 .header-link:focus{
 color:var(--accent-color);
 }
 
+.header-contacts-link:hover,
+.header-contacts-link:focus{
+    color: var(--accent-color);
+}
+
+.header-list:hover,
+.header-list:focus{
+    color: var(--accent-color);
+}
 /*logo*/
 
 
@@ -48,7 +55,7 @@ line-height: 1.19;
 color: var(--secondary-title-color);
 }
 .logo-web{ 
-color:var(--primery-logo-title);
+color:var(--accent-color);
 }
 
 
@@ -84,20 +91,22 @@ color:var(--primary-title-color);
 }
 
 .main-btn{
+background-color: var(--color-btn);
 font-size: 16px;
-font-weight: bold;
+font-weight: 700;
 line-height: 1.87;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-color: #FFFFFF;;
+transition: 0.35s;
+color:var(--secondary-title-color) ;
+cursor: pointer;
+}
+
+.main-btn:hover,
+.main-btn:focus {
+background-color: var(--accent-color); 
+color: var(--primary-title-color);
 }
 
 /*друга секція*/
-.advantage{
-
-}
 .advantage-our-first{
 font-weight: 700;
 font-size: 14px;
@@ -115,40 +124,69 @@ color:var(--primery-text-color);
 }
 
 /*третя секція*/
-.representation{
-
-}
+/*.representation{*/}
 
 .representation-team{
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
-letter-spacing: 0.03em;
 color: var(--secondary-title-color);
 }
-.representation-services-img{
 
-}
 /*третя секція*/
-.team{
 
-}
-.list-of-team{
 
-}
 .team-name{
 font-weight: 700;
 font-size: 16px;
 line-height: 1.9;
 text-align: center;
 color: var(--secondary-title-color);
-
 }
+
 .team-position{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
     text-align: center;
     color: var(--primery-text-color);
+    }
+
+/*навігація по портфоліо кнопки*/
+.portfolio-btn{
+    background-color: var(--color-btn);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62;
+    color:var(--secondary-title-color) ;
+    cursor: pointer;
+    }
     
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    background-color: var(--accent-color); 
+    color: var(--primary-title-color);
+    }
+
+{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+color: var(--secondary-title-color);
+}
+/*продукд*/
+
+.product-name-list{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
+    color: var(--secondary-title-color);
+}
+.product-list{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: var(--primery-text-color);
 }
