@@ -28,27 +28,35 @@ color: var(--primary-text-color);
 background-color: var(--primary-title-color);
 }
 
-.header-link:hover,
-.header-link:focus{
-color:var(--accent-color);
-}
-.header-contacts-link:hover,
-.header-contacts-link:focus{
-color:var(--accent-color);
-}
-.header-list:hover,
-.header-list:focus{
-color:var(--accent-color);
+
+/*----------header---------*/
+
+.header-link{
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--secondary-title-color);
+font-style: normal;
 }
 
-.footer-adres:hover,
-.footer-adres:focus{
+.header-contacts-link:hover,.header-link:hover,
+.header-contacts-link:focus,.header-link:focus
+{color:var(--accent-color);
+}
+
+.footer-contacts:hover, .footer-adres:hover,.current-btn:hover,.header-list:hover,
+.footer-contacts:focus, .footer-adres:focus,.current-btn:focus,.header-list:focus{
 color: var(--accent-color);
 }
-.footer-contacts:hover,
-.footer-contacts:focus{
-color: var(--accent-color);
+
+.header-contacts-link{
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--primery-text-color);
+font-style: normal;
 }
+
 /*--------------------logo---------------------*/
 
 .logo{
@@ -58,26 +66,8 @@ font-size: 26px;
 line-height: 1.19;
 color: var(--secondary-title-color);
 }
-
 .logo-web{ 
 color:var(--accent-color);
-}
-
-/*----------header---------*/
-
-.header-link{
-font-weight: 500;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: var(--secondary-title-color);
-}
-
-
-.header-contacts-link{
-font-weight: 500;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: var(--primery-text-color);
 }
 
 /*--------------------------перша секція------------------------*/
@@ -112,10 +102,10 @@ font-family: inherit;
 /*------------друга секція---------------------*/
 
 
-/*-----якщо прибратицй клас, то зникне верхний регистр длясписку----*/
+/*-----якщо прибратицй клас, то зникне верхний регистр для списку----*/
 .advantage-title{
-
 }
+
 .advantage-title-text{
 font-weight: 700;
 line-height: 1.14;
@@ -130,7 +120,7 @@ color:var(--primery-text-color);
 }
 
 /*третя секція*/
-/*.representation{*/}
+/*--------representation----------*/
 
 .representation-team{
 font-weight: 700;
@@ -138,9 +128,6 @@ font-size: 36px;
 line-height: 1.17;
 color: var(--secondary-title-color);
 }
-
-/*третя секція*/
-
 
 .team-name{
 font-weight: 700;
@@ -163,6 +150,7 @@ color: var(--primery-text-color);
 /*-----footer---*/
 .footer{
 background-color:var(--color-footer);
+
 }
 .logo-footer{
 font-family:'Raleway', sans-serif;
@@ -171,16 +159,23 @@ font-size: 26px;
 line-height: 1.19;
 color: var(--primary-title-color);
 }
+/*
 .logo-web{color:var(--accent-color);
-}
+*/
 
-.footer-adres {
-color:var(--primary-title-color) ;
-}
-.footer-contacts{
+.header-list-footer{
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
+color:var(--adre-contacts);
+font-style: normal;
+}
+
+.footer-adres {
+color:var(--primary-title-color);
+}
+
+.footer-contacts{
 color:var(--adre-contacts);
 } 
 
@@ -195,6 +190,7 @@ color:var(--adre-contacts);
     line-height: 1.62;
     color:var(--secondary-title-color) ;
     cursor: pointer;
+    font-family: inherit;
     }
     
 .portfolio-btn:hover,
